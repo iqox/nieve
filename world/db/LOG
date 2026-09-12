@@ -1,0 +1,45 @@
+=============== Sep 12, 2026 (MST) ===============
+10:57:09.688698 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:57:09.697453 db@open opening
+10:57:09.699459 version@stat F·[] S·0B[] Sc·[]
+10:57:09.701951 db@janitor F·2 G·0
+10:57:09.701951 db@open done T·4.4981ms
+11:00:41.331187 db@close closing
+11:00:41.332721 db@close done T·1.534ms
+=============== Sep 12, 2026 (MST) ===============
+11:39:55.608470 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:39:55.610792 version@stat F·[] S·0B[] Sc·[]
+11:39:55.610792 db@open opening
+11:39:55.610792 journal@recovery F·1
+11:39:55.635516 journal@recovery recovering @1
+11:39:55.662012 memdb@flush created L0@2 N·667 S·9KiB "\x00\x00\x00..\x00\x00+,v443":"\xff\xff\xff..\xff\xff6,v120"
+11:39:55.663607 version@stat F·[1] S·9KiB[9KiB] Sc·[0.25]
+11:39:55.678233 db@janitor F·3 G·0
+11:39:55.678233 db@open done T·67.4415ms
+11:41:03.837564 db@close closing
+11:41:03.838083 db@close done T·519µs
+=============== Sep 12, 2026 (MST) ===============
+11:52:26.503496 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:52:26.505698 version@stat F·[1] S·9KiB[9KiB] Sc·[0.25]
+11:52:26.505698 db@open opening
+11:52:26.505698 journal@recovery F·1
+11:52:26.506808 journal@recovery recovering @3
+11:52:26.554021 memdb@flush created L0@5 N·37 S·1KiB "act..\xae\xc5(,v698":"\xff\xff\xff..\x00\x006,v695"
+11:52:26.555114 version@stat F·[2] S·10KiB[10KiB] Sc·[0.50]
+11:52:26.564170 db@janitor F·4 G·0
+11:52:26.564715 db@open done T·59.017ms
+11:53:36.841946 table@compaction L0·2 -> L1·0 S·10KiB Q·706
+11:53:36.890807 table@build created L1@8 N·590 S·9KiB "\x00\x00\x00..\x00\x00+,v443":"\xff\xff\xff..\xff\xff6,v120"
+11:53:36.891355 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+11:53:36.893628 table@compaction committed F-1 S-1KiB Ke·0 D·114 T·51.6823ms
+11:53:36.895237 table@remove removed @2
+=============== Sep 12, 2026 (MST) ===============
+11:54:34.474239 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:54:34.477510 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+11:54:34.478048 db@open opening
+11:54:34.478048 journal@recovery F·1
+11:54:34.478597 journal@recovery recovering @6
+11:54:34.480200 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+11:54:34.536080 db@janitor F·4 G·1
+11:54:34.536642 db@janitor removing table-5
+11:54:34.537167 db@open done T·59.1193ms
